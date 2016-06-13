@@ -105,8 +105,8 @@ You just don't want to be down
 no no no
 You just don't want to be down"})
 
-feel_good_inc = Song.new( {title: "Feel Good Inc", artist: gorillaz, lyrics:
-  "Hahahahahahahahaha,
+feel_good_inc = Song.create( {title: "Feel Good Inc", artist: gorillaz, 
+  lyrics: "Hahahahahahahahaha,
 Feel good,
 Feel good,
 Feel good,
@@ -194,8 +194,8 @@ I want you more than anything in my life
 I'll miss you more than anyone in my life
 I love you more than anyone in my life"})
 
-do_it = Song.create( {title: "Do It", artist: tuxedo, lyrics:
-  "[Hook x2:]
+do_it = Song.create( {title: "Do It", artist: tuxedo,
+  lyrics: "[Hook x2:]
 Ooh I got a new one for ya
 I like the way that sounds
 I'm 'bout to do it for ya
